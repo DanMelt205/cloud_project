@@ -1,0 +1,47 @@
+.App {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* .Header {
+  width: 50%;
+  text-align: center;
+} */
+
+.flex-this {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.large {
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+
+.ConvertSection {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.move-center {
+  margin-left: 8rem;
+}
+
+.apiOutput {
+  margin-top: 1rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .move-center {
+    margin-left: 0;
+  }
+}
